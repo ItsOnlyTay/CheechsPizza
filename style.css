@@ -1,5 +1,16 @@
-body{
-background-image:  url ("backg_img.jpg");
-background-color: black;
-color: white;
+@charset "UTF-8";
+
+/* Body Styles */
+body { 
+    background: white;
+    background-image: url('backg_img.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top; 
+    
+    color: black;
+}
+
+    
+
 }
