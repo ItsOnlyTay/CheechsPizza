@@ -17,7 +17,7 @@ function order(){
     var numPizza = document.getElementById("1-10").value;
     var pizzaType = document.getElementById("Type").value;
     var cost =  (parseInt(numPizza) * 10.00);
-    var tax = (cost* .076)
+    var tax = (cost * .076)
     cost = tax + cost;
     document.getElementById("OrderConf").innerHTML = `Order Confirmation:<br>${name}</br>${phone}</br>${numPizza}</br>${pizzaType}</br>$${cost}`;
 }
