@@ -12,7 +12,7 @@ function pageSetUp(){
     }
 }
 
-function Order(){
+function order(){
     var name = document.getElementById("Name").value;
     var phone = document.getElementById("Phone").value;
     var numPizza = document.getElementById("1-10").value;
