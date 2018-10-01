@@ -19,5 +19,5 @@ function order(){
     var cost =  (parseInt(numPizza) * 10.00);
     var tax = (cost* .076)
     cost = tax + cost;
-    document.getElementById("OrderConf").innerHTML = `Order Confirmation:<br>${name}</br>${phone}</br>${numPizza}</br>${pizzaType}</br>${cost}`;
+    document.getElementById("OrderConf").innerHTML = `Order Confirmation:<br>${name}</br>${phone}</br>${numPizza}</br>${pizzaType}</br>$${cost}`;
 }
