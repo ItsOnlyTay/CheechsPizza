@@ -8,36 +8,37 @@
     <link rel="stylesheet" href="style.css">
     <title>Cheech's Pizza</title>
 </head>
-
-<body>
     <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#coupons">Coupons</a></li>
         <li><a class="active" href="index.html">Order</a></li>
         <li><a href="#contact">Contact</a></li>
     </ul>
+<body>
+
     <!-- [Considering asthetics]
         <a href="https://twitter.com/CheechsPizza" class="twitter-follow-button" data-show-count="false">Follow @CheechsPizza</a><script async src="https://platform.twitter.com/widgets.js"></script>
     -->
     <img alt="logo" src="logo.jpg" class="centerLogo"> 
 
+
     <form>
         Name:<br>
-        <input type="text" name="FLName" id="Name"><br>
+        <input type="text" name="FLName" id="Name" placeholder="Your Name"><br>
         Phone:<br>
         <input type="text" name="PhoneNum" id="Phone"><br>
-        How many pizzas?:<br>
+        How many pizzas?($10 each):<br>
         <select name="quantity" id="1-10">
         </select><br>
         Select Pizza:<br>
         <select name="type" id="Type">
         </select><br>
         <button type="button" id="Order" onclick="order()">Place Order</button> 
+
+        <div id="OrderConf">
+        </div>
     </form>
-    <div id="OrderConf">
-
-    </div>
-
+    </body>
 </body>
 
     <script src="functions.js"></script>

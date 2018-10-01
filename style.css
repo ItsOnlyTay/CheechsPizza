@@ -72,3 +72,9 @@ li a:hover {
 .active {
     background-color: green;
 }
+form {
+    border-style: solid;
+    border-color: #fdb761;
+    text-align: center;
+}
+
