@@ -1,16 +1,5 @@
 @charset "UTF-8";
 
-/* Page Styles 
-body { 
-    background: white;
-    background-image: url('backg_img.jpg');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-position: top; 
-    
-    color: black;
-}
-*/
 
 html {
     background: white;
@@ -93,3 +82,6 @@ button{
     margin-bottom: 0.5em;
 }
 
+footer{
+    text-align: center;
+}
