@@ -26,15 +26,18 @@
         <input type="text" name="FLName" id="Name"><br>
         Phone:<br>
         <input type="text" name="PhoneNum" id="Phone"><br>
-        How many pizzas?:
+        How many pizzas?:<br>
         <select name="quantity" id="1-10">
         </select><br>
         Select Pizza:<br>
         <select name="type" id="Type">
-        </select>
-        <button type="button" id="Order">Order</button>
-        
+        </select><br>
+        <button type="button" id="Order" onclick="Order()">Place Order</button> 
     </form>
+    <div id="OrderConf">
+
+    </div>
+
 </body>
 
     <script src="functions.js"></script>
