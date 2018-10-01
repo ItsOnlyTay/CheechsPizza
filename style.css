@@ -33,7 +33,7 @@ body {
 }	
 
 
-    /* Heading Logo Style */
+ /* Heading Logo Style */
 
 .centerLogo {
     display: block;
@@ -72,9 +72,23 @@ li a:hover {
 .active {
     background-color: green;
 }
+
+ /* Form Styles */
+
 form {
     border-style: solid;
     border-color: #fdb761;
     text-align: center;
+}
+
+input{
+    margin-bottom: 0.5em;
+}
+select{
+    margin: 0.5;
+}
+
+button{
+    margin-bottom: 0.5em;
 }
 
