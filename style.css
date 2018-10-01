@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Body Styles */
+/* Page Styles 
 body { 
     background: white;
     background-image: url('backg_img.jpg');
@@ -10,7 +10,63 @@ body {
     
     color: black;
 }
+*/
 
-    
-
+html {
+    background: white;
+    background-image: url('backg_img.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top; 
+	padding: 2em;
 }
+body {
+	background-color: black;
+	border: solid;
+	border-color: green;
+	line-height: 1.4em;
+	font-size: 1em;
+	padding: 1em;
+	
+	
+}	
+
+
+    /* Heading Logo Style */
+
+.centerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 85%;
+    height: auto;
+}
+
+    /* Nav Style */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:black;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover {
+        background-color: black;
+    }
+
+    .active {
+        background-color: green;
+    }
